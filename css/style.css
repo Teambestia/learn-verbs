@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1 rem = 10px */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #DDDCDC;
+}
+
+.header {
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.articulos {
+    margin-top: 90px;
+}
+
+.titulo h1 {
+    width: 600px;
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    /* background-color: tomato; */
+    margin: 0 auto;
+    border-bottom: 15px solid rgb(156, 153, 153);
+    height: 180px;
+}
+
+.titulo h1 span {
+    color: #009688;
+
+    font-weight: bold;
+}
+
+.boton {
+    font-size: 100;
+    margin-top: 40px;
+    font-weight: bold;
+    width: 250px;
+    height: 60px;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.botones {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    /* background-color: red; */
+    height: 150px;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.boton:hover {
+    background-color: black;
+}
+
+.go {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+    color: white;
+}
